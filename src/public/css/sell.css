@@ -1,0 +1,192 @@
+.sell-container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.sell-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.image-upload-area {
+    border: 2px dashed #ccc;
+    padding: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.upload-label {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ff6b6b;
+    color: #ff6b6b;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.image-preview {
+    margin-top: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.sell-section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0 15px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.product-detail-heading {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.product-detail-heading h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.category-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.category-list label {
+    padding: 5px 15px;
+    border: 1px solid #ff6b6b;
+    border-radius: 20px;
+    color: #ff6b6b;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease;
+}
+
+.category-tags label {
+    display: inline-block;
+    padding: 6px 14px;
+    margin: 6px;
+    border: 2px solid #f66;
+    border-radius: 20px;
+    color: #f66;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.category-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.category-tags input[type="checkbox"] {
+    display: none;
+}
+
+.category-tags input[type="checkbox"]:checked+label {
+    background-color: #f66;
+    color: #fff;
+    border-color: #f66;
+}
+
+.form-group select option {
+    background-color: #B1B1B1;
+    color: white;
+}
+
+select,
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.price-input {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.price-input .yen-symbol {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #555;
+    pointer-events: none;
+    font-weight: bold;
+}
+
+.price-input input {
+    width: 100%;
+    padding-left: 25px;
+    box-sizing: border-box;
+    height: 36px;
+    font-size: 14px;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #ff4d4d;
+}
+
+.form-group span {
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 10px;
+    color: red;
+}
+
+.price-input .yen-symbol {
+    border: none;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+}

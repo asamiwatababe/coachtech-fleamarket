@@ -1,13 +1,20 @@
-# アプリケーション名
-coachtech-fleamarket
+# coachtech-fleamarket
 
-## 環境構築
-- Dockerのビルドからマイグレーション、シーディングまでを記述する
-  - `$ docker-compose up -d --build`
-  - `$ docker-compose exec php bash`
-  - `$ composer install`
-  - `.env`ファイルの設定
-  - `$ php artisan migrate --seed`
+## Dockerビルド
+- `$ git clone git@github.com:asamiwatababe/coachtech-fleamarket.git`
+- `$ docker-compose up -d --build`
+
+## Laravel環境構築
+- `$ docker-compose exec php bash`
+- `$ composer install`
+- `$ cp .env.example .env`
+- `$ php artisan key:generate`
+- `$ php artisan migrate --seed`
+
+## 開発環境
+- トップ画面：[http://localhost/]
+- ユーザー登録：[http://localhost/register]
+- ログイン画面：[http://localhost/login]
 
 ## 使用技術（実行環境）
 - Laravel 8.75
@@ -18,7 +25,7 @@ coachtech-fleamarket
 - phpMyAdmin（http://localhost:8080）
 
 ## ER図
-＜－－－ 作成したER図の画像をここに貼る　－－－＞
+![ER図](./er.png)
 
 ## URL
-- 開発環境：http://localhost:8000
+- 開発環境：http://localhost/

@@ -1,0 +1,66 @@
+.register-container {
+    width: 400px;
+    margin: 60px auto;
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button.register-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #f75d5d;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button.register-button:hover {
+    background-color: #e64b4b;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.login-link a {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+}

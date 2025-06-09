@@ -1,0 +1,118 @@
+.profile-image-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image-wrapper label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ddd;
+    object-fit: cover;
+    display: block;
+}
+
+.hidden-file {
+    display: none;
+}
+
+.upload-label {
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+.upload-button {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #f75d5d;
+    border: 1px solid #f75d5d;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.profile-container {
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ddd;
+    object-fit: cover;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.profile-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.username {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.edit-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.tab-menu {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.tab-menu a {
+    padding: 8px 16px;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+
+}
+
+.tab-menu a.active {
+    font-weight: bold;
+    color: red;
+}
+
+.sold-label {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+}
