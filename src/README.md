@@ -4,10 +4,11 @@
 - `$ git clone git@github.com:asamiwatababe/coachtech-fleamarket.git`
 - `$ docker-compose up -d --build`
 
-## Laravel環境構築
+## Laravel環境構築(すべての artisan コマンドや composer install は PHPコンテナ内で実行してください。)
 - `$ docker-compose exec php bash`
 - `$ composer install`
 - `$ cp .env.example .env`環境変数を適宜変更
+# ※ 必要に応じて .env ファイルの内容（DB接続など）を自分の環境に合わせて修正してください
 - `$ php artisan key:generate`
 - `$ php artisan migrate --seed`
 
