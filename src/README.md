@@ -7,7 +7,7 @@
 ## Laravel環境構築
 - `$ docker-compose exec php bash`
 - `$ composer install`
-- `$ cp .env.example .env`
+- `$ cp .env.example .env`環境変数を適宜変更
 - `$ php artisan key:generate`
 - `$ php artisan migrate --seed`
 
